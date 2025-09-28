@@ -1,0 +1,6 @@
+publish:
+  - provider: github
+    owner: PecinhasFPS
+    repo: Pecinhas-V2
+    releaseType: release
+    publishAutoUpdate: true

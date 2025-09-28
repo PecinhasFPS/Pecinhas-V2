@@ -75,15 +75,15 @@ export default function FirstTime() {
         </p>
 
         <p className="text-sparkle-text-secondary mb-4 text-sm">
-          Please only download from <strong>GitHub</strong>,{" "}
-          <strong>parcoil.com</strong>, or <strong>getsparkle.net</strong>.
+          Please only download from <strong>GitHub</strong> oficial do{" "}
+          <strong>PecinhasFPS</strong>.
         </p>
 
         <p className="text-red-500 mb-8 text-sm">
           If you download from any other source, this may be malware. Please uninstall and
           reinstall from{" "}
-          <a href="https://getsparkle.net" target="_blank" className="text-blue-500">
-            getsparkle.net
+          <a href="https://github.com/PecinhasFPS/Pecinhas-V2" target="_blank" className="text-blue-500">
+            GitHub oficial
           </a>
           ,{" "}
           <a href="https://github.com/Parcoil/Sparkle" target="_blank" className="text-blue-500">

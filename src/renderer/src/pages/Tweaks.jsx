@@ -426,7 +426,7 @@ function Tweaks() {
                             onClick={(e) => {
                               e.preventDefault()
                               e.stopPropagation()
-                              const url = `https://docs.getsparkle.net/tweaks/${tweak.name}`
+                              const url = `https://github.com/PecinhasFPS/Pecinhas-V2/wiki/Tweak-${tweak.name}`
                               window.open(url, "_blank")
                             }}
                           >

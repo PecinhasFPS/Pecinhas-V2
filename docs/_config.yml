@@ -1,0 +1,27 @@
+title: Pecinhas
+description: Otimizador e Debloater gratuito para Windows
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# GitHub Pages settings
+url: "https://pecinhasfps.github.io"
+baseurl: "/Pecinhas-V2"
+
+# Social links
+github_username: PecinhasFPS
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files
+exclude:
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - pnpm-lock.yaml
+  - electron.vite.config.mjs
+  - .gitignore
+  - README.md

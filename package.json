@@ -4,7 +4,7 @@
   "description": "Pecinhas",
   "main": "./out/main/index.js",
   "author": "The Parcoil Network",
-  "homepage": "https://pecinhas.net",
+  "homepage": "https://github.com/PecinhasFPS/Pecinhas-V2",
   "pnpm": {
     "onlyBuiltDependenciesFile": "./trusted-dependencies-scripts.json"
   },

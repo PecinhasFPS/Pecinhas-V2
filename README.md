@@ -13,13 +13,18 @@
     <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-000000?style=for-the-badge&logo=gnometerminal&labelColor=0c121f&color=8b5cf6">
   </p>
 
-Instalar com PowerShell:
+## 🚀 Instalação
 
+### Método 1: PowerShell (Recomendado)
 ```powershell
-irm https://pecinhas.net/get | iex
+irm https://raw.githubusercontent.com/PecinhasFPS/Pecinhas-V2/main/get.ps1 | iex
 ```
 
-<a href="https://github.com/PecinhasFPS/Pecinhas-V2/releases/latest">Download Installer/Portable</a>
+### Método 2: Download Manual
+<a href="https://github.com/PecinhasFPS/Pecinhas-V2/releases/latest">📥 Download Installer/Portable</a>
+
+### Método 3: Via GitHub Pages
+🌐 [pecinhasfps.github.io/Pecinhas-V2](https://pecinhasfps.github.io/Pecinhas-V2)
 
   <br/>
   <br/>
@@ -45,7 +50,7 @@ irm https://pecinhas.net/get | iex
 
 <div>
   <h2>📃 Documentação</h2>
-  <p>Você pode encontrar a documentação <a href="https://pecinhas.net">aqui</a></p>
+  <p>Você pode encontrar a documentação <a href="https://github.com/PecinhasFPS/Pecinhas-V2/wiki">aqui</a></p>
   A documentação cobre todos os tweaks, como funcionam, o que fazem e todas as páginas do Pecinhas
 </div>
 
@@ -71,7 +76,7 @@ irm https://pecinhas.net/get | iex
     <li>Mais informações em <code>resources/tweaks/readme.md</code></li>
   </ul>
 
-Consulte a <a href="https://pecinhas.net">documentação</a> para mais informações sobre como adicionar novos tweaks
+Consulte a <a href="https://github.com/PecinhasFPS/Pecinhas-V2/wiki">documentação</a> para mais informações sobre como adicionar novos tweaks
 
   <h4>Outras Formas de Contribuir</h4>
   <ul>

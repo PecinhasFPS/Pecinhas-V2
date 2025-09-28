@@ -1,6 +1,4 @@
 # Script de teste para verificar a instalação
-# Execute este script para testar se o instalador está funcionando
-
 Write-Host "🧪 Testando instalador do Pecinhas..." -ForegroundColor Cyan
 Write-Host ""
 
@@ -29,7 +27,8 @@ try {
         if ($latest.assets.Count -gt 0) {
             Write-Host "📦 Assets disponíveis:" -ForegroundColor Yellow
             foreach ($asset in $latest.assets) {
-                Write-Host "   - $($asset.name) ($([math]::Round($asset.size / 1MB, 2)) MB)" -ForegroundColor Gray
+                $sizeMB = [math]::Round($asset.size / 1MB, 2)
+                Write-Host "   - $($asset.name) ($sizeMB MB)" -ForegroundColor Gray
             }
         } else {
             Write-Host "⚠️  Nenhum asset encontrado na release" -ForegroundColor Yellow
